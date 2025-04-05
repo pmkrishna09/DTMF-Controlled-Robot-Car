@@ -1,5 +1,7 @@
 # ⚙️ Motor Driver – L298N Overview
 
+You can check the complete details about L298N on (Credits: https://www.st.com/resource/en/datasheet/l298.pdf)
+
 ## 🧠 What is a Motor Driver?
 
 A **Motor Driver** bridges the gap between **low-power controllers** like an **Arduino UNO** and **high-power devices** like DC motors. The **L298N** motor driver is a dual H-Bridge driver that lets you **control the direction and speed of two DC motors** safely and efficiently. 💡🚗
