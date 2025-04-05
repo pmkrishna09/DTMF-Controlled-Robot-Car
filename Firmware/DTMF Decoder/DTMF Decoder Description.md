@@ -1,6 +1,6 @@
 # 🎯 **Role of DTMF Decoder (MT8870)**
 
-You can check the complete details about MT8870 DTMF Decoder (https://www.electronicwings.com/sensors-modules/mt8870-dtmf-decoder)
+You can check the complete details about MT8870 DTMF Decoder (Credits: https://www.electronicwings.com/sensors-modules/mt8870-dtmf-decoder)
 
 The **MT8870** DTMF decoder is the *brain* behind understanding what key you pressed on your phone! ☎️
 
