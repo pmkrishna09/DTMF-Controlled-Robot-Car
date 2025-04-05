@@ -127,7 +127,7 @@ DTMF makes it possible to control a robot or system via a simple phone call 📱
 <details>
 <summary>📐Block Diagram</summary>
 
-![DTMF Robot Block Diagram](path-to-your-image/dtmf-robot-block-diagram.png)
+![DTMF Robot Block Diagram](https://github.com/pmkrishna09/DTMF-Controlled-Robot-Car/blob/7690ccf162b873b9b9388cadcfdb1a349e89d40b/Schematics/BLOCK%20DIAGRAM.jpg)
 
 
 </details>
