@@ -11,8 +11,50 @@ This robot serves as a cost-effective solution for remote-controlled navigation,
 
 ---
 
+### *📞 WHAT is DTMF (Dual Tone Multi-Frequency)?*
 
-## ⭐ Key Features & Functionality
+**Dual Tone Multi-Frequency (DTMF)** is a telecommunication signaling system that uses a combination of two distinct audio tones (frequencies) to represent each key on a standard telephone keypad. This system allows for the transmission of numerical and command data over voice communication channels.
+
+### 🎼 How It Works:
+When you press a button on your phone's keypad, it doesn't just send a single tone — it sends **two simultaneous tones**:
+- One from a **low-frequency group**
+- One from a **high-frequency group**
+
+Each key on the keypad corresponds to a **unique pair of frequencies**, making it easy for electronic devices (like DTMF decoders) to identify which key was pressed.
+
+| Key | Low Frequency (Hz) | High Frequency (Hz) |
+|-----|---------------------|----------------------|
+| 1   | 697                 | 1209                 |
+| 2   | 697                 | 1336                 |
+| 3   | 697                 | 1477                 |
+| 4   | 770                 | 1209                 |
+| 5   | 770                 | 1336                 |
+| 6   | 770                 | 1477                 |
+| 7   | 852                 | 1209                 |
+| 8   | 852                 | 1336                 |
+| 9   | 852                 | 1477                 |
+| *   | 941                 | 1209                 |
+| 0   | 941                 | 1336                 |
+| #   | 941                 | 1477                 |
+
+### 🎯 Why Is It Used?
+- **Simple & reliable**: Perfect for analog audio transmission systems like phone lines.
+- **Widely used**: Found in **IVR systems**, **security systems**, **remote-controlled robots**, and more.
+- **Fast decoding**: Allows quick and accurate recognition by DTMF decoder ICs (e.g., MT8870).
+
+### 🔌 Applications of DTMF:
+- Telephone-based menu navigation (press 1 for support, press 2 for sales…)
+- Remote control of systems via phone (home automation, robotics 🤖)
+- Security access control systems
+- Touch-tone telecommunication
+
+---
+
+**In Robotics**:
+DTMF makes it possible to control a robot or system via a simple phone call 📱. The decoder interprets each key press into a digital command that a microcontroller (like an Arduino UNO) can use to control motors, servos, and more!
+
+
+## ⭐ Key Features & Functionalities in the Project
 
 - 📱 **Remote mobile phone control** (call and press keys)
 - ✅ **Remote Access via Mobile Calls** – Control the robot from anywhere just by calling it and pressing the phone’s keypad.  
